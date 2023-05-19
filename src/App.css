@@ -35,6 +35,9 @@ nav {
 .main--container {
   padding: 57px 27px;
   color: white;
+  /* background-image: url(./images/react-icon-large.png); */
+  /* background-repeat: no-repeat; */
+  /* background-position: right 75%; */
 }
 .main--title {
   margin: 0;
@@ -48,4 +51,8 @@ nav {
   line-height: 19px;
   padding-block: 10px;
   max-width: 400px;
+}
+.main--facts > li::marker {
+  font-size: 1.4rem;
+  color: #61dafb;
 }
